@@ -1,0 +1,10 @@
+{
+  "/technology-innovation/page": "app/technology-innovation/page.js",
+  "/news/page": "app/news/page.js",
+  "/contact-us/page": "app/contact-us/page.js",
+  "/about/page": "app/about/page.js",
+  "/page": "app/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/not-found": "app/not-found.js",
+  "/products/panda-mn228/page": "app/products/panda-mn228/page.js"
+}
