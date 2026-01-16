@@ -1,7 +1,7 @@
 // app/news/page.jsx
 "use client";
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, Suspense } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
 import NewsNavbar from '@/components/news/NewsNavbar';
 import NewsGrid from '@/components/news/NewsGrid';
@@ -9,7 +9,8 @@ import PageBanner from '@/components/PageBanner';
 import { companyNewsData, industryNewsData, mediaNewsData } from '@/data/newsData';
 import ThrownLayout from '../../layouts/ThrownLayout';
 
-const NewsPage = () => {
+// 将使用 useSearchParams 的逻辑提取到子组件
+function NewsContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const tabFromUrl = searchParams.get('tab') || 'company-news';
@@ -115,6 +116,24 @@ const NewsPage = () => {
       </div>
     </ThrownLayout>
   );
-};
+}
 
-export default NewsPage;
+// 主页面组件，用Suspense包裹NewsContent
+export default function NewsPage() {
+  return (
+    <Suspense fallback={
+      <div style={{ 
+        display: 'flex', 
+        justifyContent: 'center', 
+        alignItems: 'center', 
+        height: '100vh',
+        fontSize: '1.2rem',
+        color: '#666'
+      }}>
+        Loading News Page...
+      </div>
+    }>
+      <NewsContent />
+    </Suspense>
+  );
+}
