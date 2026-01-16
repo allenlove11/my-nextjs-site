@@ -1,2 +1,17 @@
-"node_modules/" 
-echo ".next/cache/"
+# 依赖目录，永远不要提交
+node_modules/
+
+# Next.js 构建生成的目录和文件
+.next/
+out/
+next-env.d.ts
+
+# 本地缓存
+.cache/
+
+# 生产构建文件
+build/
+dist/
+
+# 环境变量文件
+.env*.local
