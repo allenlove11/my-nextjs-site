@@ -10,14 +10,23 @@ const Footer = () => {
               <div className="footer-wiget-log">
                 <Link legacyBehavior href="/">
                   <a>
-                    <img src="assets/images/footer-logo.png" alt="" />
+                    <img src="/assets/images/footer-logo.png" alt="" />
                   </a>
                 </Link>
               </div>
 
               <div className="footer-shape-title">
-                <p >Sichuan Hongke Innovation Technology Co., Ltd. is mainly engaged in the research, development, manufacturing and sales of protective glass for smart terminal displays, special glass for aerospace and new optical materials. It is the first high-tech enterprise in China to simultaneously realize the industrialization of high-alumina cover glass and lithium aluminum silicon cover glass.</p>
-              </div>
+  <p style={{
+    paddingTop: "20px",
+    color: "white"
+  }}>
+    Sichuan Hongke Innovation Technology Co., Ltd. is mainly engaged in the research, 
+    development, manufacturing and sales of protective glass for smart terminal displays, 
+    special glass for aerospace and new optical materials. It is the first high-tech 
+    enterprise in China to simultaneously realize the industrialization of high-alumina 
+    cover glass and lithium aluminum silicon cover glass.
+  </p>
+</div>
             </div>
           </div>
           <div className="col-lg-3 col-md-6">
@@ -72,34 +81,12 @@ const Footer = () => {
           <div className="col-lg-3 col-md-6 pr-0">
             <div className="foter-box">
               <div className="footer-wiget-icon">
-                <ul>
-                  <li>
-                    <a href="#">
-                      <i className="fab fa-facebook-f" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="fab fa-twitter" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="fab fa-instagram" />
-                    </a>
-                  </li>
-                </ul>
+
               </div>
               <div className="footer-widget-contct-menu">
                 <ul>
-                  <li>
-                    <a href="#">( 800 ) 160-616481</a>
-                  </li>
                   <li className="line">
-                    <a href="#">example@gmail.com</a>
-                  </li>
-                  <li>
-                    <a href="#">175 10h Street, Office 375 Berlin, De 21562</a>
+                    <a href="#">Rose.du@panda-glass.cc</a>
                   </li>
                 </ul>
               </div>

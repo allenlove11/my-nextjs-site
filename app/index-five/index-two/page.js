@@ -37,7 +37,7 @@ const Index2 = () => {
                       </div>
                     </div>
                     <div className="slider-shape3 dance3">
-                      <img src="assets/images/slider/shape3.png" alt="image" />
+                      <img src="/assets/images/slider/shape3.png" alt="image" />
                     </div>
                   </div>
                 </div>
@@ -85,7 +85,7 @@ const Index2 = () => {
           <div className="row">
             <div className="col-lg-6 col-md-12">
               <div className="about-thumb">
-                <img src="assets/images/about/about-thumb2.png" alt="image" />
+                <img src="/assets/images/about/about-thumb2.png" alt="image" />
                 <div className="about-video-icon">
                   <a
                     className="video-vemo-icon venobox vbox-item"
@@ -99,7 +99,7 @@ const Index2 = () => {
                 <div className="about-counter">
                   <div className="about-counter-thumb">
                     <img
-                      src="assets/images/about/about-counter.png"
+                      src="/assets/images/about/about-counter.png"
                       alt="image"
                     />
                   </div>
@@ -237,12 +237,12 @@ const Index2 = () => {
             <div className="col-lg-5 col-md-6">
               <div className="contact-thumb">
                 <img
-                  src="assets/images/resource/contact-thumb.png"
+                  src="/assets/images/resource/contact-thumb.png"
                   alt="image"
                 />
                 <div className="contact-shape bounce-animate">
                   <img
-                    src="assets/images/resource/contact-shape.png"
+                    src="/assets/images/resource/contact-shape.png"
                     alt="image"
                   />
                 </div>
@@ -278,7 +278,7 @@ const Index2 = () => {
               <div className="service-items-box-two">
                 <div className="service-icon-thumb">
                   <img
-                    src="assets/images/service/service-style1.png"
+                    src="/assets/images/service/service-style1.png"
                     alt="image"
                   />
                 </div>
@@ -296,7 +296,7 @@ const Index2 = () => {
                   </p>
                 </div>
                 <div className="service-items-thumb-two">
-                  <img src="assets/images/service/service1.png" alt="image" />
+                  <img src="/assets/images/service/service1.png" alt="image" />
                   <div className="service-items-icon-two">
                     <i className="bi bi-arrow-right" />
                   </div>
@@ -309,7 +309,7 @@ const Index2 = () => {
               <div className="service-items-box-two">
                 <div className="service-icon-thumb">
                   <img
-                    src="assets/images/service/service-style2.png"
+                    src="/assets/images/service/service-style2.png"
                     alt="image"
                   />
                 </div>
@@ -327,7 +327,7 @@ const Index2 = () => {
                   </p>
                 </div>
                 <div className="service-items-thumb-two">
-                  <img src="assets/images/service/service2.png" alt="image" />
+                  <img src="/assets/images/service/service2.png" alt="image" />
                   <div className="service-items-icon-two">
                     <i className="bi bi-arrow-right" />
                   </div>
@@ -340,7 +340,7 @@ const Index2 = () => {
               <div className="service-items-box-two">
                 <div className="service-icon-thumb">
                   <img
-                    src="assets/images/service/service-style3.png"
+                    src="/assets/images/service/service-style3.png"
                     alt="image"
                   />
                 </div>
@@ -358,7 +358,7 @@ const Index2 = () => {
                   </p>
                 </div>
                 <div className="service-items-thumb-two">
-                  <img src="assets/images/service/service3.png" alt="image" />
+                  <img src="/assets/images/service/service3.png" alt="image" />
                   <div className="service-items-icon-two">
                     <i className="bi bi-arrow-right" />
                   </div>
@@ -371,7 +371,7 @@ const Index2 = () => {
               <div className="service-items-box-two">
                 <div className="service-icon-thumb">
                   <img
-                    src="assets/images/service/service-style4.png"
+                    src="/assets/images/service/service-style4.png"
                     alt="image"
                   />
                 </div>
@@ -389,7 +389,7 @@ const Index2 = () => {
                   </p>
                 </div>
                 <div className="service-items-thumb-two">
-                  <img src="assets/images/service/service4.png" alt="image" />
+                  <img src="/assets/images/service/service4.png" alt="image" />
                   <div className="service-items-icon-two">
                     <i className="bi bi-arrow-right" />
                   </div>
@@ -431,7 +431,7 @@ const Index2 = () => {
                 </div>
                 <div className="choose-single-box">
                   <div className="choose-icon">
-                    <img src="assets/images/resource/choose1.png" alt="image" />
+                    <img src="/assets/images/resource/choose1.png" alt="image" />
                   </div>
                   <div className="choose-content">
                     <h4>Accounting and Bookkeeping</h4>
@@ -440,7 +440,7 @@ const Index2 = () => {
                 </div>
                 <div className="choose-single-box">
                   <div className="choose-icon">
-                    <img src="assets/images/resource/choose2.png" alt="image" />
+                    <img src="/assets/images/resource/choose2.png" alt="image" />
                   </div>
                   <div className="choose-content">
                     <h4>Customer Service And Support</h4>
@@ -528,10 +528,10 @@ const Index2 = () => {
             <div className="col-lg-4 col-md-6">
               <div className="work-process-single-box">
                 <div className="work-process-thumb">
-                  <img src="assets/images/resource/work1.png" alt="image" />
+                  <img src="/assets/images/resource/work1.png" alt="image" />
                   <div className="work-process-shape rotateme">
                     <img
-                      src="assets/images/resource/work-border-shape.png"
+                      src="/assets/images/resource/work-border-shape.png"
                       alt="image"
                     />
                   </div>
@@ -555,10 +555,10 @@ const Index2 = () => {
             <div className="col-lg-4 col-md-6">
               <div className="work-process-single-box">
                 <div className="work-process-thumb">
-                  <img src="assets/images/resource/work2.png" alt="image" />
+                  <img src="/assets/images/resource/work2.png" alt="image" />
                   <div className="work-process-shape rotateme">
                     <img
-                      src="assets/images/resource/work-border-shape.png"
+                      src="/assets/images/resource/work-border-shape.png"
                       alt="image"
                     />
                   </div>
@@ -582,10 +582,10 @@ const Index2 = () => {
             <div className="col-lg-4 col-md-6">
               <div className="work-process-single-box work">
                 <div className="work-process-thumb">
-                  <img src="assets/images/resource/work3.png" alt="image" />
+                  <img src="/assets/images/resource/work3.png" alt="image" />
                   <div className="work-process-shape rotateme">
                     <img
-                      src="assets/images/resource/work-border-shape.png"
+                      src="/assets/images/resource/work-border-shape.png"
                       alt="image"
                     />
                   </div>
@@ -784,7 +784,7 @@ const Index2 = () => {
             <div className="col-md-6 col-xl-3">
               <div className="team-items-box">
                 <div className="team-item-thumb">
-                  <img src="assets/images/team/team4.png" alt="image" />
+                  <img src="/assets/images/team/team4.png" alt="image" />
                 </div>
                 <div className="team-item-content">
                   <h4>
@@ -799,7 +799,7 @@ const Index2 = () => {
             <div className="col-md-6 col-xl-3">
               <div className="team-items-box">
                 <div className="team-item-thumb">
-                  <img src="assets/images/team/team5.png" alt="image" />
+                  <img src="/assets/images/team/team5.png" alt="image" />
                 </div>
                 <div className="team-item-content">
                   <h4>
@@ -814,7 +814,7 @@ const Index2 = () => {
             <div className="col-md-6 col-xl-3">
               <div className="team-items-box">
                 <div className="team-item-thumb">
-                  <img src="assets/images/team/team6.png" alt="image" />
+                  <img src="/assets/images/team/team6.png" alt="image" />
                 </div>
                 <div className="team-item-content">
                   <h4>
@@ -829,7 +829,7 @@ const Index2 = () => {
             <div className="col-md-6 col-xl-3">
               <div className="team-items-box">
                 <div className="team-item-thumb">
-                  <img src="assets/images/team/team7.png" alt="image" />
+                  <img src="/assets/images/team/team7.png" alt="image" />
                 </div>
                 <div className="team-item-content">
                   <h4>
@@ -859,7 +859,7 @@ const Index2 = () => {
                   <div className="testimonial-items-box">
                     <div className="testimonial-item-thumb">
                       <img
-                        src="assets/images/testimonial/testi-3.png"
+                        src="/assets/images/testimonial/testi-3.png"
                         alt="image"
                       />
                     </div>
@@ -890,7 +890,7 @@ const Index2 = () => {
                   <div className="testimonial-items-box">
                     <div className="testimonial-item-thumb">
                       <img
-                        src="assets/images/testimonial/testi-3.png"
+                        src="/assets/images/testimonial/testi-3.png"
                         alt="image"
                       />
                     </div>
@@ -929,7 +929,7 @@ const Index2 = () => {
             </div>
             <div className="testimonial-shape">
               <img
-                src="assets/images/testimonial/testi-shape.png"
+                src="/assets/images/testimonial/testi-shape.png"
                 alt="image"
               />
             </div>
@@ -1079,7 +1079,7 @@ const Index2 = () => {
             <div className="col-lg-4 col-md-6">
               <div className="blog-single-box style-two">
                 <div className="blog-thumb">
-                  <img src="assets/images/blog/blog1.png" alt="image" />
+                  <img src="/assets/images/blog/blog1.png" alt="image" />
                   <div className="blog-meta-date">
                     <h5>15</h5>
                     <span>May</span>
@@ -1113,7 +1113,7 @@ const Index2 = () => {
             <div className="col-lg-4 col-md-6">
               <div className="blog-single-box style-two">
                 <div className="blog-thumb">
-                  <img src="assets/images/blog/blog2.png" alt="image" />
+                  <img src="/assets/images/blog/blog2.png" alt="image" />
                   <div className="blog-meta-date">
                     <h5>15</h5>
                     <span>May</span>
@@ -1147,7 +1147,7 @@ const Index2 = () => {
             <div className="col-lg-4 col-md-6">
               <div className="blog-single-box style-two">
                 <div className="blog-thumb">
-                  <img src="assets/images/blog/blog3.png" alt="image" />
+                  <img src="/assets/images/blog/blog3.png" alt="image" />
                   <div className="blog-meta-date">
                     <h5>15</h5>
                     <span>May</span>

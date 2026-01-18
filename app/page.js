@@ -3,6 +3,7 @@ import ThrownLayout from "@/layouts/ThrownLayout";
 import { sliderProps } from "@/utility/sliderProps";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
+import DevelopmentHistory from "@/components/DevelopmentHistory";
 
 const page = () => {
   return (
@@ -35,6 +36,20 @@ const page = () => {
           height: 100%;
           z-index: 1;
         }
+        /* 背景遮罩层，提高文字可读性 */
+        .fullscreen-banner .image-layer::after {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: linear-gradient(135deg, 
+            rgba(0, 0, 0, 0.4) 0%, 
+            rgba(0, 0, 0, 0.6) 50%, 
+            rgba(0, 0, 0, 0.4) 100%);
+          z-index: 1;
+        }
         .fullscreen-banner .container {
           position: relative;
           z-index: 2;
@@ -53,7 +68,10 @@ const page = () => {
           font-weight: 700;
           line-height: 1.2;
           color: #ffffff;
-          text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+          text-shadow: 
+            0 1px 2px rgba(0, 0, 0, 0.8),
+            0 2px 6px rgba(0, 0, 0, 0.6),
+            0 4px 12px rgba(0, 0, 0, 0.4);
           margin-bottom: 15px;
         }
         .title-line {
@@ -63,12 +81,19 @@ const page = () => {
         .highlight {
           color: #ffffff; /* 高亮颜色，可根据需要调整 */
           font-weight: 800;
+          text-shadow: 
+            0 1px 2px rgba(0, 0, 0, 0.9),
+            0 2px 8px rgba(0, 0, 0, 0.7),
+            0 4px 16px rgba(0, 0, 0, 0.5);
         }
         .subtitle {
           font-size: 1.5rem;
           max-width: 800px;
           margin: 0 auto;
           line-height: 1.6;
+          text-shadow: 
+            0 1px 2px rgba(0, 0, 0, 0.7),
+            0 2px 6px rgba(0, 0, 0, 0.5);
         }
         .slider-content.style-five {
           width: 100%;
@@ -135,6 +160,7 @@ const page = () => {
             </Swiper>
           </div>
         </section>
+        <DevelopmentHistory />
       </ThrownLayout>
     </>
   );

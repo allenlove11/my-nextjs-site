@@ -22,7 +22,7 @@ const Work = ({ dark }) => {
           <div className="column">
             <div className="project-thumb">
               <img
-                src="assets/images/project/project1.png"
+                src="/assets/images/project/project1.png"
                 alt="image"
                 style={{ width: "100%" }}
               />
@@ -44,53 +44,7 @@ const Work = ({ dark }) => {
             </div>
             <div className="project-thumb">
               <img
-                src="assets/images/project/project4.png"
-                alt="image"
-                style={{ width: "100%" }}
-              />
-              <div className="portfolio-content">
-                <div className="protfolio-title">
-                  <h6>Strategy</h6>
-                  <h3>
-                    <Link legacyBehavior href="project-details">
-                      Digital Experience
-                    </Link>
-                  </h3>
-                  <h3>
-                    <Link legacyBehavior href="project-details">
-                      Development Case
-                    </Link>
-                  </h3>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="column">
-            <div className="project-thumb">
-              <img
-                src="assets/images/project/project2..png"
-                alt="image"
-                style={{ width: "100%" }}
-              />
-              <div className="portfolio-content">
-                <div className="protfolio-title">
-                  <h6>Strategy</h6>
-                  <h3>
-                    <Link legacyBehavior href="project-details">
-                      Digital Experience
-                    </Link>
-                  </h3>
-                  <h3>
-                    <Link legacyBehavior href="project-details">
-                      Development Case
-                    </Link>
-                  </h3>
-                </div>
-              </div>
-            </div>
-            <div className="project-thumb">
-              <img
-                src="assets/images/project/project5.png"
+                src="/assets/images/project/project4.png"
                 alt="image"
                 style={{ width: "100%" }}
               />
@@ -114,7 +68,7 @@ const Work = ({ dark }) => {
           <div className="column">
             <div className="project-thumb">
               <img
-                src="assets/images/project/project3.png"
+                src="/assets/images/project/project2..png"
                 alt="image"
                 style={{ width: "100%" }}
               />
@@ -136,7 +90,53 @@ const Work = ({ dark }) => {
             </div>
             <div className="project-thumb">
               <img
-                src="assets/images/project/project6.png"
+                src="/assets/images/project/project5.png"
+                alt="image"
+                style={{ width: "100%" }}
+              />
+              <div className="portfolio-content">
+                <div className="protfolio-title">
+                  <h6>Strategy</h6>
+                  <h3>
+                    <Link legacyBehavior href="project-details">
+                      Digital Experience
+                    </Link>
+                  </h3>
+                  <h3>
+                    <Link legacyBehavior href="project-details">
+                      Development Case
+                    </Link>
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="column">
+            <div className="project-thumb">
+              <img
+                src="/assets/images/project/project3.png"
+                alt="image"
+                style={{ width: "100%" }}
+              />
+              <div className="portfolio-content">
+                <div className="protfolio-title">
+                  <h6>Strategy</h6>
+                  <h3>
+                    <Link legacyBehavior href="project-details">
+                      Digital Experience
+                    </Link>
+                  </h3>
+                  <h3>
+                    <Link legacyBehavior href="project-details">
+                      Development Case
+                    </Link>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div className="project-thumb">
+              <img
+                src="/assets/images/project/project6.png"
                 alt="image"
                 style={{ width: "100%" }}
               />

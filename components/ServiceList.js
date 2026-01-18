@@ -19,7 +19,7 @@ const ServiceList = ({ dark }) => {
           <div className="col-lg-4 col-md-6">
             <div className={`service-items-four ${dark ? "dark" : ""}`}>
               <div className="service-four-thumb">
-                <img src="assets/images/service/service5.png" alt="image" />
+                <img src="/assets/images/service/service5.png" alt="image" />
               </div>
               <div className="service-four-content">
                 <div className={`service-four-title ${dark ? "dark" : ""}`}>
@@ -29,7 +29,7 @@ const ServiceList = ({ dark }) => {
                 </div>
                 <div className="service-four-icon-thumb">
                   <img
-                    src="assets/images/service/service-icon7.png"
+                    src="/assets/images/service/service-icon7.png"
                     alt="image"
                   />
                 </div>
@@ -44,7 +44,7 @@ const ServiceList = ({ dark }) => {
           <div className="col-lg-4 col-md-6">
             <div className={`service-items-four ${dark ? "dark" : ""}`}>
               <div className="service-four-thumb">
-                <img src="assets/images/service/service6.png" alt="image" />
+                <img src="/assets/images/service/service6.png" alt="image" />
               </div>
               <div className="service-four-content">
                 <div className={`service-four-title ${dark ? "dark" : ""}`}>
@@ -54,7 +54,7 @@ const ServiceList = ({ dark }) => {
                 </div>
                 <div className="service-four-icon-thumb">
                   <img
-                    src="assets/images/service/service-icon8.png"
+                    src="/assets/images/service/service-icon8.png"
                     alt="image"
                   />
                 </div>
@@ -69,7 +69,7 @@ const ServiceList = ({ dark }) => {
           <div className="col-lg-4 col-md-6">
             <div className={`service-items-four ${dark ? "dark" : ""}`}>
               <div className="service-four-thumb">
-                <img src="assets/images/service/service7.png" alt="image" />
+                <img src="/assets/images/service/service7.png" alt="image" />
               </div>
               <div className="service-four-content">
                 <div className={`service-four-title ${dark ? "dark" : ""}`}>
@@ -79,7 +79,7 @@ const ServiceList = ({ dark }) => {
                 </div>
                 <div className="service-four-icon-thumb">
                   <img
-                    src="assets/images/service/service-icon9.png"
+                    src="/assets/images/service/service-icon9.png"
                     alt="image"
                   />
                 </div>
@@ -94,7 +94,7 @@ const ServiceList = ({ dark }) => {
           <div className="col-lg-4 col-md-6">
             <div className={`service-items-four ${dark ? "dark" : ""}`}>
               <div className="service-four-thumb">
-                <img src="assets/images/service/service8.png" alt="image" />
+                <img src="/assets/images/service/service8.png" alt="image" />
               </div>
               <div className="service-four-content">
                 <div className={`service-four-title ${dark ? "dark" : ""}`}>
@@ -104,7 +104,7 @@ const ServiceList = ({ dark }) => {
                 </div>
                 <div className="service-four-icon-thumb">
                   <img
-                    src="assets/images/service/service-icon10.png"
+                    src="/assets/images/service/service-icon10.png"
                     alt="image"
                   />
                 </div>
@@ -119,7 +119,7 @@ const ServiceList = ({ dark }) => {
           <div className="col-lg-4 col-md-6">
             <div className={`service-items-four ${dark ? "dark" : ""}`}>
               <div className="service-four-thumb">
-                <img src="assets/images/service/service9.png" alt="image" />
+                <img src="/assets/images/service/service9.png" alt="image" />
               </div>
               <div className="service-four-content">
                 <div className={`service-four-title ${dark ? "dark" : ""}`}>
@@ -129,7 +129,7 @@ const ServiceList = ({ dark }) => {
                 </div>
                 <div className="service-four-icon-thumb">
                   <img
-                    src="assets/images/service/service-icon11.png"
+                    src="/assets/images/service/service-icon11.png"
                     alt="image"
                   />
                 </div>
@@ -144,7 +144,7 @@ const ServiceList = ({ dark }) => {
           <div className="col-lg-4 col-md-6">
             <div className={`service-items-four ${dark ? "dark" : ""}`}>
               <div className="service-four-thumb">
-                <img src="assets/images/service/service10.png" alt="image" />
+                <img src="/assets/images/service/service10.png" alt="image" />
               </div>
               <div className="service-four-content">
                 <div className={`service-four-title ${dark ? "dark" : ""}`}>
@@ -154,7 +154,7 @@ const ServiceList = ({ dark }) => {
                 </div>
                 <div className="service-four-icon-thumb">
                   <img
-                    src="assets/images/service/service-icon12.png"
+                    src="/assets/images/service/service-icon12.png"
                     alt="image"
                   />
                 </div>

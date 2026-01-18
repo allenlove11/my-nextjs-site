@@ -16,7 +16,7 @@ const page = () => {
           <div className="row">
             <div className="col-lg-6 col-md-6">
               <div className="slider-four-thumb wow animate__slideInLeft">
-                <img src="assets/images/slider/slider-thumb.png" alt="image" />
+                <img src="/assets/images/slider/slider-thumb.png" alt="image" />
               </div>
             </div>
             <div className="col-lg-6 col-md-6">
@@ -138,7 +138,7 @@ const page = () => {
             </div>
             <div className="col-lg-6 col-md-12">
               <div className="about-thumb four">
-                <img src="assets/images/about/about-4.png" alt="image" />
+                <img src="/assets/images/about/about-4.png" alt="image" />
                 <div className="about-counter four">
                   <div className="about-countent-content four">
                     <div className="about-counter-numbar">
@@ -206,32 +206,32 @@ const page = () => {
               <Swiper {...sliderProps.brand_list}>
                 <SwiperSlide className="col-lg-12">
                   <div className="brand-thumb">
-                    <img src="assets/images/brand/brand1.svg" alt="image" />
+                    <img src="/assets/images/brand/brand1.svg" alt="image" />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide className="col-lg-12">
                   <div className="brand-thumb">
-                    <img src="assets/images/brand/brand2.svg" alt="image" />
+                    <img src="/assets/images/brand/brand2.svg" alt="image" />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide className="col-lg-12">
                   <div className="brand-thumb">
-                    <img src="assets/images/brand/brand3.svg" alt="image" />
+                    <img src="/assets/images/brand/brand3.svg" alt="image" />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide className="col-lg-12">
                   <div className="brand-thumb">
-                    <img src="assets/images/brand/brand4.svg" alt="image" />
+                    <img src="/assets/images/brand/brand4.svg" alt="image" />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide className="col-lg-12">
                   <div className="brand-thumb">
-                    <img src="assets/images/brand/brand5.svg" alt="image" />
+                    <img src="/assets/images/brand/brand5.svg" alt="image" />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide className="col-lg-12">
                   <div className="brand-thumb">
-                    <img src="assets/images/brand/brand6.svg" alt="image" />
+                    <img src="/assets/images/brand/brand6.svg" alt="image" />
                   </div>
                 </SwiperSlide>
               </Swiper>
@@ -264,12 +264,12 @@ const page = () => {
             <div className="col-lg-4 col-md-6">
               <div className="project-items-box">
                 <div className="project-items-thumb">
-                  <img src="assets/images/project/project7.png" alt="image" />
+                  <img src="/assets/images/project/project7.png" alt="image" />
                   <div className="project-icon">
                     <a
                       className="project-icon venobox vbox-item"
                       data-gall="myportfolio"
-                      href="assets/images/project/project7.png"
+                      href="/assets/images/project/project7.png"
                     >
                       <i className="bi bi-plus-lg" />
                     </a>
@@ -280,12 +280,12 @@ const page = () => {
             <div className="col-lg-4 col-md-6">
               <div className="project-items-box">
                 <div className="project-items-thumb">
-                  <img src="assets/images/project/project8.png" alt="image" />
+                  <img src="/assets/images/project/project8.png" alt="image" />
                   <div className="project-icon">
                     <a
                       className="project-icon venobox vbox-item"
                       data-gall="myportfolio"
-                      href="assets/images/project/project8.png"
+                      href="/assets/images/project/project8.png"
                     >
                       <i className="bi bi-plus-lg" />
                     </a>
@@ -296,12 +296,12 @@ const page = () => {
             <div className="col-lg-4 col-md-6">
               <div className="project-items-box">
                 <div className="project-items-thumb">
-                  <img src="assets/images/project/project9.png" alt="image" />
+                  <img src="/assets/images/project/project9.png" alt="image" />
                   <div className="project-icon">
                     <a
                       className="project-icon venobox vbox-item"
                       data-gall="myportfolio"
-                      href="assets/images/project/project9.png"
+                      href="/assets/images/project/project9.png"
                     >
                       <i className="bi bi-plus-lg" />
                     </a>
@@ -312,12 +312,12 @@ const page = () => {
             <div className="col-lg-4 col-md-6">
               <div className="project-items-box">
                 <div className="project-items-thumb">
-                  <img src="assets/images/project/project10.png" alt="image" />
+                  <img src="/assets/images/project/project10.png" alt="image" />
                   <div className="project-icon">
                     <a
                       className="project-icon venobox vbox-item"
                       data-gall="myportfolio"
-                      href="assets/images/project/project10.png"
+                      href="/assets/images/project/project10.png"
                     >
                       <i className="bi bi-plus-lg" />
                     </a>
@@ -328,12 +328,12 @@ const page = () => {
             <div className="col-lg-4 col-md-6">
               <div className="project-items-box">
                 <div className="project-items-thumb">
-                  <img src="assets/images/project/project11.png" alt="image" />
+                  <img src="/assets/images/project/project11.png" alt="image" />
                   <div className="project-icon">
                     <a
                       className="project-icon venobox vbox-item"
                       data-gall="myportfolio"
-                      href="assets/images/project/project11.png"
+                      href="/assets/images/project/project11.png"
                     >
                       <i className="bi bi-plus-lg" />
                     </a>
@@ -344,12 +344,12 @@ const page = () => {
             <div className="col-lg-4 col-md-6">
               <div className="project-items-box">
                 <div className="project-items-thumb">
-                  <img src="assets/images/project/project12.png" alt="image" />
+                  <img src="/assets/images/project/project12.png" alt="image" />
                   <div className="project-icon">
                     <a
                       className="project-icon venobox vbox-item"
                       data-gall="myportfolio"
-                      href="assets/images/project/project12.png"
+                      href="/assets/images/project/project12.png"
                     >
                       <i className="bi bi-plus-lg" />
                     </a>
@@ -433,7 +433,7 @@ const page = () => {
             <div className="col-md-6 col-xl-3">
               <div className="team-items-box">
                 <div className="team-item-thumb">
-                  <img src="assets/images/team/team4.png" alt="image" />
+                  <img src="/assets/images/team/team4.png" alt="image" />
                 </div>
                 <div className="team-item-content">
                   <h4>
@@ -446,7 +446,7 @@ const page = () => {
             <div className="col-md-6 col-xl-3">
               <div className="team-items-box">
                 <div className="team-item-thumb">
-                  <img src="assets/images/team/team5.png" alt="image" />
+                  <img src="/assets/images/team/team5.png" alt="image" />
                 </div>
                 <div className="team-item-content">
                   <h4>
@@ -459,7 +459,7 @@ const page = () => {
             <div className="col-md-6 col-xl-3">
               <div className="team-items-box">
                 <div className="team-item-thumb">
-                  <img src="assets/images/team/team6.png" alt="image" />
+                  <img src="/assets/images/team/team6.png" alt="image" />
                 </div>
                 <div className="team-item-content">
                   <h4>
@@ -472,7 +472,7 @@ const page = () => {
             <div className="col-md-6 col-xl-3">
               <div className="team-items-box">
                 <div className="team-item-thumb">
-                  <img src="assets/images/team/team7.png" alt="image" />
+                  <img src="/assets/images/team/team7.png" alt="image" />
                 </div>
                 <div className="team-item-content">
                   <h4>
@@ -514,7 +514,7 @@ const page = () => {
               </div>
               <div className="choose-single-box">
                 <div className="choose-icon">
-                  <img src="assets/images/resource/choose1.png" alt="image" />
+                  <img src="/assets/images/resource/choose1.png" alt="image" />
                 </div>
                 <div className="choose-content">
                   <h4>Accounting and Bookkeeping</h4>
@@ -523,7 +523,7 @@ const page = () => {
               </div>
               <div className="choose-single-box">
                 <div className="choose-icon">
-                  <img src="assets/images/resource/choose2.png" alt="image" />
+                  <img src="/assets/images/resource/choose2.png" alt="image" />
                 </div>
                 <div className="choose-content">
                   <h4>Customer Service And Support</h4>
@@ -611,7 +611,7 @@ const page = () => {
             <div className="col-lg-4 col-md-6">
               <div className="blog-items-four">
                 <div className="blog-four-thumb">
-                  <img src="assets/images/blog/blog4.jpg" alt="image" />
+                  <img src="/assets/images/blog/blog4.jpg" alt="image" />
                 </div>
               </div>
             </div>
@@ -641,7 +641,7 @@ const page = () => {
             <div className="col-lg-4 col-md-6">
               <div className="blog-items-four">
                 <div className="blog-four-thumb">
-                  <img src="assets/images/blog/blog5.png" alt="image" />
+                  <img src="/assets/images/blog/blog5.png" alt="image" />
                 </div>
               </div>
             </div>
@@ -671,7 +671,7 @@ const page = () => {
             <div className="col-lg-4 col-md-6">
               <div className="blog-items-four">
                 <div className="blog-four-thumb">
-                  <img src="assets/images/blog/blog6.png" alt="image" />
+                  <img src="/assets/images/blog/blog6.png" alt="image" />
                 </div>
               </div>
             </div>

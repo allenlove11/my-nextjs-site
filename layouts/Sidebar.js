@@ -28,7 +28,7 @@ const Sidebar = () => {
                 <div className="sidebar-logo">
                   <Link legacyBehavior href="/">
                     <a>
-                      <img src="assets/images/logo.png" alt="logo" />
+                      <img src="/assets/images/logo.png" alt="logo" />
                     </a>
                   </Link>
                 </div>

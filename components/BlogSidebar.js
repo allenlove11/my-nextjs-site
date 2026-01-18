@@ -24,7 +24,7 @@ const BlogSidebar = () => {
         </div>
         <div className="sidber-widget-recent-post mb-40">
           <div className="recent-widget-thumb">
-            <img src="assets/images/blog/recen1.png" alt="" />
+            <img src="/assets/images/blog/recen1.png" alt="" />
           </div>
           <div className="recent-widget-content">
             <div className="recent-widget-meta">
@@ -44,7 +44,7 @@ const BlogSidebar = () => {
         </div>
         <div className="sidber-widget-recent-post mb-40">
           <div className="recent-widget-thumb">
-            <img src="assets/images/blog/recen2.png" alt="" />
+            <img src="/assets/images/blog/recen2.png" alt="" />
           </div>
           <div className="recent-widget-content">
             <div className="recent-widget-meta">
@@ -64,7 +64,7 @@ const BlogSidebar = () => {
         </div>
         <div className="sidber-widget-recent-post">
           <div className="recent-widget-thumb">
-            <img src="assets/images/blog/recen3.png" alt="" />
+            <img src="/assets/images/blog/recen3.png" alt="" />
           </div>
           <div className="recent-widget-content">
             <div className="recent-widget-meta">

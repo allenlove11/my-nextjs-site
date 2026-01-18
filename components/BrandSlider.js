@@ -10,32 +10,32 @@ const BrandSlider = ({ dark }) => {
             <Swiper {...sliderProps.brand_list}>
               <SwiperSlide className="col-lg-12">
                 <div className="brand-thumb">
-                  <img src="assets/images/brand/brand1.svg" alt="image" />
+                  <img src="/assets/images/brand/brand1.svg" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide className="col-lg-12">
                 <div className="brand-thumb">
-                  <img src="assets/images/brand/brand2.svg" alt="image" />
+                  <img src="/assets/images/brand/brand2.svg" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide className="col-lg-12">
                 <div className="brand-thumb">
-                  <img src="assets/images/brand/brand3.svg" alt="image" />
+                  <img src="/assets/images/brand/brand3.svg" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide className="col-lg-12">
                 <div className="brand-thumb">
-                  <img src="assets/images/brand/brand4.svg" alt="image" />
+                  <img src="/assets/images/brand/brand4.svg" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide className="col-lg-12">
                 <div className="brand-thumb">
-                  <img src="assets/images/brand/brand5.svg" alt="image" />
+                  <img src="/assets/images/brand/brand5.svg" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide className="col-lg-12">
                 <div className="brand-thumb">
-                  <img src="assets/images/brand/brand6.svg" alt="image" />
+                  <img src="/assets/images/brand/brand6.svg" alt="image" />
                 </div>
               </SwiperSlide>
             </Swiper>

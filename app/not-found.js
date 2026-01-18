@@ -10,7 +10,7 @@ const NotFound = () => {
           <div className="row">
             <div className="col-lg-12 text-center">
               <div className="error-thumb mb-60">
-                <img src="assets/images/resource/error.svg" alt="image" />
+                <img src="/assets/images/resource/error.svg" alt="image" />
               </div>
               <div className="thrown-btn error text-center">
                 <Link legacyBehavior href="/contact-us">

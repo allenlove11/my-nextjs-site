@@ -1,414 +1,178 @@
-// components/DevelopmentTimeline.jsx
-"use client";
-
+import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
+
 import 'swiper/css';
 import 'swiper/css/navigation';
 
-const DevelopmentTimeline = () => {
-  // 按照原网站的4屏数据结构
-  const timelineSlides = [
-    [
-      { 
-        year: "2024", 
-        events: ["Mass production of China's first deep two-strong glass 'Panda-F.Loong'"]
-      },
-      { 
-        year: "2022", 
-        events: [
-          "New float process high-alumina cover glass production line ignited and put into operation",
-          "Possess two float process high-alumina cover glass production lines",
-          "Grew into a domestic leading protective cover glass R&D, manufacturing, and complete solution provider"
-        ]
-      },
-      { 
-        year: "2021", 
-        events: ["New float process high-alumina cover glass production line started construction"]
-      }
-    ],
-    [
-      { 
-        year: "2020", 
-        events: ["State-owned capital control by Kefa Group, Jingkai Investment Holding Group, and Gongying Assistance Fund"]
-      },
-      { 
-        year: "2019", 
-        events: [
-          "High-alumina cover glass (two-strong) achieved batch production",
-          "Successfully entered Xiaomi's two-strong glass resource pool, becoming the only domestic two-strong glass supplier"
-        ]
-      },
-      { 
-        year: "2017-2018", 
-        events: [
-          "Entered vivo's resource pool and became vivo's only domestic glass supplier",
-          "High-alumina cover glass (two-strong) material formula successfully developed",
-          "Won the National Science and Technology Progress Second Prize",
-          "Won the Manufacturing Single Champion Demonstration Enterprise",
-          "Won the Sichuan Province Patent First Prize"
-        ]
-      }
-    ],
-    [
-      { 
-        year: "2015-2016", 
-        events: [
-          "Expanded market share, achieving batch applications in LG, Huawei, Xiaomi, and Lenovo",
-          "'Panda King' gradually gained market recognition"
-        ]
-      },
-      { 
-        year: "2014", 
-        events: [
-          "Registered 'Panda King' trademark",
-          "Transitioned to producing 'Panda King' high-alumina cover glass (one-strong)",
-          "Performance reached advanced industry levels",
-          "Successfully entered Lenovo and Coolpad test certification, entered resource pool"
-        ]
-      },
-      { 
-        year: "2013", 
-        events: [
-          "PDP glass officially launched",
-          "Achieved batch supply to Changhong"
-        ]
-      }
-    ],
-    [
-      { 
-        year: "2010-2012", 
-        events: [
-          "Company established",
-          "China's first enterprise to research, develop, and produce PDP, breaking foreign technology monopoly"
-        ]
-      }
-    ]
-  ];
+const BASE_URL = "https://www.panda-glass.cn";
 
+const timelineData = [
+  {
+    items: [
+      { date: "2024", content: ["● Mass production of China's first deep double-strengthened glass 'Panda-F.Loong'."], isMiddle: false },
+      { date: "2022", content: ["● New float process high-aluminum cover glass production line put into operation.", "● Owning two float process high-aluminum cover glass production lines.", "● Leading domestic provider of protective cover glass solutions."], isMiddle: true },
+      { date: "2021", content: ["● Groundbreaking of the new float process high-aluminum cover glass production line."], isMiddle: false }
+    ]
+  },
+  {
+    items: [
+      { date: "2020", content: ["● Controlled by state-owned capital including Kefa Group and Jingkai Investment Holding Group."], isMiddle: false },
+      { date: "2019", content: ["● Mass production of double-strengthened glass achieved.", "● Successfully entered Xiaomi's supplier pool as the sole domestic provider."], isMiddle: true },
+      { date: "2017-2018", content: ["● Became the sole domestic glass supplier for vivo.", "● Won the Second Prize of National Science and Technology Progress Award.", "● Awarded as the Individual Champion Demonstration Enterprise."], isMiddle: false }
+    ]
+  },
+  {
+    items: [
+      { date: "2015-2016", content: ["● Market share expansion with applications in LG, Huawei, Xiaomi, and Lenovo.", "● 'King Panda' brand gradually gained market recognition."], isMiddle: false },
+      { date: "2014", content: ["● Registered 'King Panda' trademark.", "● Shifted to production of 'King Panda' high-aluminum cover glass (single-strengthened).", "● Performance reached advanced industry standards."], isMiddle: true },
+      { date: "2013", content: ["● PDP glass officially rolled off the line.", "● Achieved mass supply to Changhong."], isMiddle: false }
+    ]
+  },
+  {
+    items: [
+      { date: "2010-2012", content: ["● Company established.", "● China's first R&D and production of PDP, breaking international technology monopoly."], isMiddle: false }
+    ]
+  }
+];
+
+export default function HistoryTimeline() {
   return (
-    <div className="development-timeline-wrapper">
-      <div className="timeline-swiper-container">
-        <Swiper
-          modules={[Navigation]}
-          spaceBetween={0}
-          slidesPerView={1}
-          loop={false}
-          navigation={true}
-          className="timeline-swiper"
+    <section className="timeline-section">
+      <div className="wave-line-desktop">
+        <img src={`${BASE_URL}/template/pc/cn/images/lc-quxian.png`} alt="Curve" />
+      </div>
+
+      <div className="timeline-container">
+        <div className="timeline-header">
+          <h2>
+            Development History
+            <span>OUR JOURNEY & MILESTONES</span>
+          </h2>
+        </div>
+
+        <Swiper 
+          modules={[Navigation]} 
+          navigation 
+          slidesPerView={1} 
+          className="history-swiper"
         >
-          {timelineSlides.map((slide, slideIndex) => (
-            <SwiperSlide key={slideIndex}>
-              <div className="timeline-slide">
-                {/* 时间节点列表 */}
-                <div className="timeline-nodes-container">
-                  {slide.map((node, nodeIndex) => (
-                    <div key={nodeIndex} className="timeline-node-item">
-                      {/* 左侧的事件描述 */}
-                      <div className="events-content">
-                        {node.events.map((event, eventIndex) => (
-                          <div key={eventIndex} className="event-item">
-                            <span className="event-bullet">•</span>
-                            <span className="event-text">{event}</span>
-                          </div>
-                        ))}
-                      </div>
-                      
-                      {/* 连接线 */}
-                      <div className="node-connector">
-                        <div className="connector-line"></div>
-                        <div className="year-node">
-                          <div className="node-circle">
-                            <div className="node-inner"></div>
-                          </div>
-                          <div className="year-text">{node.year}</div>
+          {timelineData.map((slide, pageIdx) => (
+            <SwiperSlide key={pageIdx}>
+              <div 
+                className="timeline-slide-layout" 
+                style={{ 
+                  justifyContent: slide.items.length < 3 ? 'flex-start' : 'center' 
+                }}
+              >
+                {slide.items.map((item, i) => (
+                  <div 
+                    key={i} 
+                    className={`node-item ${item.isMiddle ? 'node-down' : 'node-up'}`}
+                    style={{ 
+                      zIndex: 10 - i,
+                      flex: slide.items.length < 3 ? '0 0 33.33%' : '1' 
+                    }}
+                  >
+                    <div className="line-axis">
+                      <div className="dot-marker" />
+                      <div className="content-payload">
+                        <span className="year-label">{item.date}</span>
+                        <div className="info-card">
+                          {item.content.map((text, tidx) => (
+                            <p key={tidx}>{text}</p>
+                          ))}
                         </div>
                       </div>
                     </div>
-                  ))}
-                </div>
+                  </div>
+                ))}
               </div>
             </SwiperSlide>
           ))}
         </Swiper>
       </div>
 
-      <style jsx>{`
-        .development-timeline-wrapper {
-          width: 100%;
-          padding: 40px 0;
+      <style jsx global>{`
+        .timeline-section {
+          position: relative; width: 100vw; left: 50%; margin-left: -50vw;
+          min-height: 1050px; padding: 80px 0; overflow: visible;
+          background: rgba(255, 255, 255, 0.85) url(${BASE_URL}/template/pc/cn/images/lc_bg.jpg) center/cover;
+          background-blend-mode: overlay;
         }
 
-        .timeline-swiper-container {
-          position: relative;
-          width: 100%;
-          overflow: hidden;
+        .wave-line-desktop {
+          position: absolute; top: 48%; left: 0; width: 100%; z-index: 1; pointer-events: none;
+        }
+        .wave-line-desktop img { width: 100%; }
+
+        .timeline-container { position: relative; z-index: 2; width: 100%; }
+        .timeline-header { text-align: center; margin-bottom: 60px; }
+        .timeline-header h2 { font-size: 38px; color: #111; font-weight: bold; }
+        .timeline-header span { display: block; font-size: 16px; color: #666; margin-top: 12px; }
+
+        .timeline-slide-layout { 
+          display: flex; width: 94%; margin: 0 auto; height: 850px; position: relative; 
         }
 
-        .timeline-swiper {
-          width: 100%;
-          min-height: 300px;
-        }
+        .node-item { position: relative; display: flex; justify-content: center; }
+        
+        /* 默认样式：保持 80px 和 520px */
+        .node-up { transform: translateY(80px); }
+        .node-down { transform: translateY(520px); }
 
-        .timeline-slide {
-          position: relative;
-          width: 100%;
-          min-height: 300px;
-        }
+        /* 精准修复：仅每一页的第一个 node-item 额外下移 100px */
+        .node-item:first-child { transform: translateY(180px); }
 
-        /* 时间节点容器 */
-        .timeline-nodes-container {
-          display: flex;
-          justify-content: space-around;
-          align-items: flex-start;
-          padding: 0 20px;
-          gap: 20px;
+        .line-axis { position: relative; width: 2px; height: 220px; background: #005bac; }
+        .dot-marker { 
+          position: absolute; width: 16px; height: 16px; background: #005bac; 
+          border-radius: 50%; left: -7px; box-shadow: 0 0 12px rgba(0,91,172,0.4);
+          z-index: 10;
         }
+        .node-up .dot-marker { bottom: 0; }
+        .node-down .dot-marker { top: 0; }
+        /* 确保第一个项目的圆点依然在轴线底部 */
+        .node-item:first-child .dot-marker { bottom: 0; }
 
-        .timeline-node-item {
-          position: relative;
-          width: 30%;
-          max-width: 300px;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
+        .content-payload { position: absolute; left: 20px; width: 330px; z-index: 20; }
+        .node-up .content-payload { bottom: 60px; }
+        .node-down .content-payload { top: 20px; }
+        /* 确保第一个项目的文案框位置同步 */
+        .node-item:first-child .content-payload { bottom: 60px; }
+
+        .year-label { font-size: 26px; font-weight: bold; color: #005bac; display: block; margin-bottom: 12px; }
+        .info-card { 
+          background: rgba(255,255,255,0.95); padding: 22px; border-radius: 0 15px 15px 15px;
+          border-left: 5px solid #005bac; box-shadow: 0 12px 40px rgba(0,0,0,0.12);
+          text-align: left;
         }
+        .info-card p { font-size: 16px; color: #222; margin-bottom: 10px; line-height: 1.6; }
 
-        /* 左侧的事件描述 */
-        .events-content {
-          width: 100%;
-          background: white;
-          border-radius: 8px;
-          padding: 20px;
-          box-shadow: 0 5px 20px rgba(0,0,0,0.1);
-          border: 1px solid #e9ecef;
-          margin-bottom: 20px;
-          min-height: 150px;
-        }
+        .history-swiper { overflow: visible !important; }
+        .swiper-wrapper { overflow: visible !important; }
+        .swiper-pagination { display: none !important; }
 
-        .event-item {
-          display: flex;
-          margin-bottom: 8px;
-          color: #333;
-          font-size: 13px;
-          line-height: 1.5;
-        }
-
-        .event-item:last-child {
-          margin-bottom: 0;
-        }
-
-        .event-bullet {
-          color: #0c5398;
-          font-weight: bold;
-          margin-right: 8px;
-          flex-shrink: 0;
-        }
-
-        .event-text {
-          flex: 1;
-        }
-
-        /* 连接线 */
-        .node-connector {
-          position: relative;
-          width: 2px;
-          min-height: 60px;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-        }
-
-        .connector-line {
-          width: 2px;
-          height: 40px;
-          background: #0c5398;
-        }
-
-        /* 年份节点 */
-        .year-node {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          margin-top: 10px;
-        }
-
-        .node-circle {
-          width: 24px;
-          height: 24px;
-          border: 3px solid #0c5398;
-          border-radius: 50%;
-          background: white;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          box-shadow: 0 0 0 4px rgba(76, 175, 80, 0.2);
-        }
-
-        .node-inner {
-          width: 8px;
-          height: 8px;
-          background: #0c5398;
-          border-radius: 50%;
-        }
-
-        .year-text {
-          margin-top: 8px;
-          padding: 6px 12px;
-          background: #0c5398;
-          color: white;
-          border-radius: 20px;
-          font-weight: 600;
-          font-size: 14px;
-          white-space: nowrap;
-          box-shadow: 0 3px 10px rgba(76, 175, 80, 0.3);
-        }
-
-        /* Swiper导航按钮 */
-        .timeline-swiper .swiper-button-prev,
-        .timeline-swiper .swiper-button-next {
-          width: 50px;
-          height: 50px;
-          background: white;
-          border-radius: 50%;
-          box-shadow: 0 3px 15px rgba(0,0,0,0.1);
-          color: #0c5398;
-          transition: all 0.3s ease;
-          top: 50%;
-          transform: translateY(-50%);
-        }
-
-        .timeline-swiper .swiper-button-prev:after,
-        .timeline-swiper .swiper-button-next:after {
-          font-size: 20px;
-          font-weight: bold;
-        }
-
-        .timeline-swiper .swiper-button-prev:hover,
-        .timeline-swiper .swiper-button-next:hover {
-          background: #0c5398;
-          color: white;
-          transform: translateY(-50%) scale(1.1);
-        }
-
-        .timeline-swiper .swiper-button-prev {
-          left: 0;
-        }
-
-        .timeline-swiper .swiper-button-next {
-          right: 0;
-        }
-
-        /* 响应式设计 */
-        @media (max-width: 1200px) {
-          .events-content {
-            padding: 15px;
-            min-height: 120px;
+        @media (max-width: 991px) {
+          .timeline-section { min-height: auto; padding: 40px 0; overflow: hidden; }
+          .wave-line-desktop { display: none; }
+          .timeline-slide-layout { 
+            flex-direction: column !important; height: auto; width: 100%; 
+            padding: 0 20px 40px 40px; box-sizing: border-box; 
           }
-        }
-
-        @media (max-width: 992px) {
-          .timeline-nodes-container {
-            gap: 15px;
-            padding: 0 10px;
+          /* 移动端必须取消所有位移 */
+          .node-item { transform: none !important; display: block !important; width: 100% !important; flex: none !important; }
+          .line-axis { 
+            width: 100%; height: auto; background: none; 
+            border-left: 2px solid #005bac; padding-bottom: 40px; 
           }
-          
-          .events-content {
-            padding: 12px;
-            min-height: 100px;
-          }
-          
-          .event-text {
-            font-size: 12px;
-          }
-        }
-
-        @media (max-width: 768px) {
-          .timeline-nodes-container {
-            flex-direction: column;
-            align-items: center;
-            gap: 30px;
-          }
-          
-          .timeline-node-item {
-            width: 100%;
-            max-width: 500px;
-            flex-direction: row;
-            align-items: flex-start;
-            justify-content: space-between;
-          }
-          
-          .events-content {
-            width: 70%;
-            margin-bottom: 0;
-            margin-right: 20px;
-            min-height: auto;
-          }
-          
-          .node-connector {
-            order: -1;
-            width: 2px;
-            min-height: 100%;
-            margin-right: 20px;
-          }
-          
-          .connector-line {
-            height: 20px;
-          }
-          
-          .year-node {
-            align-items: flex-start;
-          }
-          
-          .timeline-swiper .swiper-button-prev,
-          .timeline-swiper .swiper-button-next {
-            width: 40px;
-            height: 40px;
-          }
-          
-          .timeline-swiper .swiper-button-prev:after,
-          .timeline-swiper .swiper-button-next:after {
-            font-size: 16px;
-          }
-        }
-
-        @media (max-width: 576px) {
-          .timeline-node-item {
-            flex-direction: column;
-            align-items: center;
-          }
-          
-          .events-content {
-            width: 100%;
-            margin-right: 0;
-            margin-bottom: 20px;
-            order: 1;
-          }
-          
-          .node-connector {
-            order: 2;
-            width: 100%;
-            min-height: auto;
-            margin-right: 0;
-            align-items: center;
-          }
-          
-          .connector-line {
-            display: none;
-          }
-          
-          .year-node {
-            align-items: center;
-          }
-          
-          .timeline-swiper .swiper-button-prev,
-          .timeline-swiper .swiper-button-next {
-            display: none;
+          .dot-marker { left: -9px; top: 0 !important; }
+          .content-payload { 
+            position: relative; left: 20px; top: 0 !important; bottom: auto !important;
+            width: calc(100% - 20px) !important; 
           }
         }
       `}</style>
-    </div>
+    </section>
   );
-};
-
-export default DevelopmentTimeline;
+}

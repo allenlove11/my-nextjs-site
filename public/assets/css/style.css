@@ -175,7 +175,6 @@ Tags: architect, building company, construction, construction template, construc
   color: #141422;
   font-family: var(--jost);
   font-size: 16px;
-  font-weight: 500;
   padding: 38px 0;
   text-decoration: none;
   position: relative;
@@ -7540,7 +7539,7 @@ span.flaticon-multiply i {
   color: #fff;
   top: 3px;
   z-index: 1;
-  background: #0154f7;
+  background: #0c5398;
 }
 
 .top-wrap .go-top-button i {

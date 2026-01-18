@@ -418,7 +418,7 @@ const TechnologyInnovationContent = ({ dark = false }) => {
         .platform-title {
           font-size: 1.5rem;
           color: #010212;
-          font-weight: 600;
+          font-weight: 400;
           margin-bottom: 20px;
         }
         
@@ -532,8 +532,8 @@ const TechnologyInnovationContent = ({ dark = false }) => {
           
           .platform-title {
             font-size: 1.4rem;
-            color: #666;
-            font-weight: 700;
+            color: #333;
+            font-weight: 500;
             margin: 0;
             line-height: 1.3;
           }

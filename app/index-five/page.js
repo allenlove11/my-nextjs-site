@@ -17,7 +17,7 @@ const page = () => {
               <div
                 className="image-layer"
                 style={{
-                  backgroundImage: 'url("assets/images/slider/slider7.jpg")',
+                  backgroundImage: 'url("/assets/images/slider/slider7.jpg")',
                 }}
               />
               <div className="container">
@@ -48,7 +48,7 @@ const page = () => {
                 <div className="slider-bottom">
                   <div className="slider-bottom-shape">
                     <img
-                      src="assets/images/slider/slider-btm-shape.png"
+                      src="/assets/images/slider/slider-btm-shape.png"
                       alt="image"
                     />
                   </div>
@@ -75,7 +75,7 @@ const page = () => {
               <div
                 className="image-layer"
                 style={{
-                  backgroundImage: 'url("assets/images/slider/slider8.png")',
+                  backgroundImage: 'url("/assets/images/slider/slider8.png")',
                 }}
               />
               <div className="container">
@@ -135,7 +135,7 @@ const page = () => {
               <div className="service-items-box-two">
                 <div className="service-icon-thumb">
                   <img
-                    src="assets/images/service/service-style1.png"
+                    src="/assets/images/service/service-style1.png"
                     alt="image"
                   />
                 </div>
@@ -153,7 +153,7 @@ const page = () => {
                   </p>
                 </div>
                 <div className="service-items-thumb-two">
-                  <img src="assets/images/service/service1.png" alt="image" />
+                  <img src="/assets/images/service/service1.png" alt="image" />
                   <div className="service-items-icon-two">
                     <i className="bi bi-arrow-right" />
                   </div>
@@ -166,7 +166,7 @@ const page = () => {
               <div className="service-items-box-two">
                 <div className="service-icon-thumb">
                   <img
-                    src="assets/images/service/service-style2.png"
+                    src="/assets/images/service/service-style2.png"
                     alt="image"
                   />
                 </div>
@@ -184,7 +184,7 @@ const page = () => {
                   </p>
                 </div>
                 <div className="service-items-thumb-two">
-                  <img src="assets/images/service/service2.png" alt="image" />
+                  <img src="/assets/images/service/service2.png" alt="image" />
                   <div className="service-items-icon-two">
                     <i className="bi bi-arrow-right" />
                   </div>
@@ -197,7 +197,7 @@ const page = () => {
               <div className="service-items-box-two">
                 <div className="service-icon-thumb">
                   <img
-                    src="assets/images/service/service-style3.png"
+                    src="/assets/images/service/service-style3.png"
                     alt="image"
                   />
                 </div>
@@ -215,7 +215,7 @@ const page = () => {
                   </p>
                 </div>
                 <div className="service-items-thumb-two">
-                  <img src="assets/images/service/service3.png" alt="image" />
+                  <img src="/assets/images/service/service3.png" alt="image" />
                   <div className="service-items-icon-two">
                     <i className="bi bi-arrow-right" />
                   </div>
@@ -228,7 +228,7 @@ const page = () => {
               <div className="service-items-box-two">
                 <div className="service-icon-thumb">
                   <img
-                    src="assets/images/service/service-style4.png"
+                    src="/assets/images/service/service-style4.png"
                     alt="image"
                   />
                 </div>
@@ -246,7 +246,7 @@ const page = () => {
                   </p>
                 </div>
                 <div className="service-items-thumb-two">
-                  <img src="assets/images/service/service4.png" alt="image" />
+                  <img src="/assets/images/service/service4.png" alt="image" />
                   <div className="service-items-icon-two">
                     <i className="bi bi-arrow-right" />
                   </div>
@@ -346,7 +346,7 @@ const page = () => {
               <div className="conversion-text">
                 <div className="choose-single-box">
                   <div className="choose-icon style-five">
-                    <img src="assets/images/resource/choose1.png" alt="image" />
+                    <img src="/assets/images/resource/choose1.png" alt="image" />
                   </div>
                   <div className="choose-content style-five">
                     <h4>Accounting and Bookkeeping</h4>
@@ -358,7 +358,7 @@ const page = () => {
                 </div>
                 <div className="choose-single-box">
                   <div className="choose-icon style-five">
-                    <img src="assets/images/resource/choose2.png" alt="image" />
+                    <img src="/assets/images/resource/choose2.png" alt="image" />
                   </div>
                   <div className="choose-content style-five">
                     <h4>Multi-layered security</h4>
@@ -414,7 +414,7 @@ const page = () => {
           <div className="row">
             <div className="col-lg-6 col-md-12">
               <div className="about-thumb">
-                <img src="assets/images/about/about-5.png" alt="image" />
+                <img src="/assets/images/about/about-5.png" alt="image" />
                 <div className="about-counter-five">
                   <div className="counter-five-content">
                     <div className="counter-five-numbar">
@@ -572,7 +572,7 @@ const page = () => {
             <div className="col-lg-4 col-md-6">
               <div className="team-items-five">
                 <div className="team-five-thumb">
-                  <img src="assets/images/team/team12.png" alt="image" />
+                  <img src="/assets/images/team/team12.png" alt="image" />
                   <div className="team-five-main-icon">
                     <a href="#">
                       <i className="bi bi-plus-lg" />
@@ -616,7 +616,7 @@ const page = () => {
             <div className="col-lg-4 col-md-6">
               <div className="team-items-five">
                 <div className="team-five-thumb">
-                  <img src="assets/images/team/team13.png" alt="image" />
+                  <img src="/assets/images/team/team13.png" alt="image" />
                   <div className="team-five-main-icon">
                     <a href="#">
                       <i className="bi bi-plus-lg" />
@@ -660,7 +660,7 @@ const page = () => {
             <div className="col-lg-4 col-md-6">
               <div className="team-items-five">
                 <div className="team-five-thumb">
-                  <img src="assets/images/team/team14.png" alt="image" />
+                  <img src="/assets/images/team/team14.png" alt="image" />
                   <div className="team-five-main-icon">
                     <a href="#">
                       <i className="bi bi-plus-lg" />
@@ -716,32 +716,32 @@ const page = () => {
             <div className="brand_list owl-carousel">
               <div className="col-lg-12">
                 <div className="brand-thumb">
-                  <img src="assets/images/brand/brand1.svg" alt="image" />
+                  <img src="/assets/images/brand/brand1.svg" alt="image" />
                 </div>
               </div>
               <div className="col-lg-12">
                 <div className="brand-thumb">
-                  <img src="assets/images/brand/brand2.svg" alt="image" />
+                  <img src="/assets/images/brand/brand2.svg" alt="image" />
                 </div>
               </div>
               <div className="col-lg-12">
                 <div className="brand-thumb">
-                  <img src="assets/images/brand/brand3.svg" alt="image" />
+                  <img src="/assets/images/brand/brand3.svg" alt="image" />
                 </div>
               </div>
               <div className="col-lg-12">
                 <div className="brand-thumb">
-                  <img src="assets/images/brand/brand4.svg" alt="image" />
+                  <img src="/assets/images/brand/brand4.svg" alt="image" />
                 </div>
               </div>
               <div className="col-lg-12">
                 <div className="brand-thumb">
-                  <img src="assets/images/brand/brand5.svg" alt="image" />
+                  <img src="/assets/images/brand/brand5.svg" alt="image" />
                 </div>
               </div>
               <div className="col-lg-12">
                 <div className="brand-thumb">
-                  <img src="assets/images/brand/brand6.svg" alt="image" />
+                  <img src="/assets/images/brand/brand6.svg" alt="image" />
                 </div>
               </div>
             </div>
@@ -807,7 +807,7 @@ const page = () => {
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
               <div className="testi-item-five">
-                <img src="assets/images/testimonial/testi6.png" alt="image" />
+                <img src="/assets/images/testimonial/testi6.png" alt="image" />
               </div>
             </div>
             <div className="col-lg-6 col-md-12">
@@ -937,7 +937,7 @@ const page = () => {
                     </p>
                   </div>
                   <div className="blog-bottom-shape">
-                    <img src="assets/images/blog/blog-shape.png" alt="image" />
+                    <img src="/assets/images/blog/blog-shape.png" alt="image" />
                   </div>
                   <div className="blog-bottom-title">
                     <h4>Admin</h4>
@@ -977,7 +977,7 @@ const page = () => {
                     </p>
                   </div>
                   <div className="blog-bottom-shape">
-                    <img src="assets/images/blog/blog-shape.png" alt="image" />
+                    <img src="/assets/images/blog/blog-shape.png" alt="image" />
                   </div>
                   <div className="blog-bottom-title">
                     <h4>Admin</h4>
@@ -1017,7 +1017,7 @@ const page = () => {
                     </p>
                   </div>
                   <div className="blog-bottom-shape">
-                    <img src="assets/images/blog/blog-shape.png" alt="image" />
+                    <img src="/assets/images/blog/blog-shape.png" alt="image" />
                   </div>
                   <div className="blog-bottom-title">
                     <h4>Admin</h4>
@@ -1033,10 +1033,10 @@ const page = () => {
             </div>
           </div>
           <div className="blog-shape1 bounce-animate">
-            <img src="assets/images/blog/blog-shape2.png" alt="image" />
+            <img src="/assets/images/blog/blog-shape2.png" alt="image" />
           </div>
           <div className="blog-shape2 bounce-animate">
-            <img src="assets/images/blog/blog-shape1.png" alt="image" />
+            <img src="/assets/images/blog/blog-shape1.png" alt="image" />
           </div>
         </div>
       </div>

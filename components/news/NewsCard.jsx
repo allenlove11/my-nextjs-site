@@ -117,7 +117,7 @@ const NewsCard = ({
     fontSize: '1.1rem',
     lineHeight: '1.4',
     margin: 0,
-    fontWeight: '600',
+    fontWeight: '400',
     display: '-webkit-box',
     WebkitLineClamp: 2, // 保持2行但通过字体大小控制高度
     WebkitBoxOrient: 'vertical',
