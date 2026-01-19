@@ -1,6 +1,5 @@
 {
   "/page": "app/page.js",
-  "/not-found": "app/not-found.js",
   "/technology-innovation/page": "app/technology-innovation/page.js",
   "/products/panda-mn228/page": "app/products/panda-mn228/page.js"
 }
