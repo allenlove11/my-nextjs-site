@@ -32,6 +32,26 @@
       "static/chunks/main-app.js",
       "static/css/app/technology-innovation/page.css",
       "static/chunks/app/technology-innovation/page.js"
+    ],
+    "/products/panda-1681/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/products/panda-1681/page.js"
+    ],
+    "/products/panda-floong/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/products/panda-floong/page.js"
+    ],
+    "/products/applications/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/products/applications/page.js"
+    ],
+    "/products/partners/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/products/partners/page.js"
     ]
   }
 }

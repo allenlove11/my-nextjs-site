@@ -1,5 +1,10 @@
 {
   "/page": "app/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/technology-innovation/page": "app/technology-innovation/page.js",
-  "/products/panda-mn228/page": "app/products/panda-mn228/page.js"
+  "/products/panda-mn228/page": "app/products/panda-mn228/page.js",
+  "/products/panda-1681/page": "app/products/panda-1681/page.js",
+  "/products/panda-floong/page": "app/products/panda-floong/page.js",
+  "/products/applications/page": "app/products/applications/page.js",
+  "/products/partners/page": "app/products/partners/page.js"
 }
