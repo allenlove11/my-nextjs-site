@@ -1,20 +1,6 @@
 {
-  "/_not-found": "app/_not-found.js",
-  "/about/page": "app/about/page.js",
-  "/contact-us/page": "app/contact-us/page.js",
-  "/error/page": "app/error/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/index-five/index-three/page": "app/index-five/index-three/page.js",
-  "/news/page": "app/news/page.js",
-  "/index-five/index-four/page": "app/index-five/index-four/page.js",
-  "/index-five/index-two/page": "app/index-five/index-two/page.js",
-  "/index-five/page": "app/index-five/page.js",
   "/page": "app/page.js",
+  "/not-found": "app/not-found.js",
   "/technology-innovation/page": "app/technology-innovation/page.js",
-  "/products/applications/page": "app/products/applications/page.js",
-  "/products/panda-mn228/page": "app/products/panda-mn228/page.js",
-  "/products/panda-1681/page": "app/products/panda-1681/page.js",
-  "/products/panda-floong/page": "app/products/panda-floong/page.js",
-  "/products/partners/page": "app/products/partners/page.js",
-  "/products/page": "app/products/page.js"
+  "/products/panda-mn228/page": "app/products/panda-mn228/page.js"
 }
